@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	int len;
+	char str[15];
+	scanf("%d\n", &len);
+	scanf("%s", str);
+
+	printf("%d\n%s", len*2, str);
+}
