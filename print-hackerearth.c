@@ -31,8 +31,6 @@ int main()
             case 't':
             count[6]++;
             break;
-            case 'default':
-            break;
         }
     }
     count[0] /= 2; count[1] /= 2; count[4] /= 2; count[5] /= 2; 
