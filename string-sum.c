@@ -8,9 +8,7 @@ int main()
     int sum=0;
     
     while(len--) {
-
-        sum += (str[len]-96);
-        
+        sum += ((char) str[len]-96);
     }
     printf("%d", sum);
     return 0;
