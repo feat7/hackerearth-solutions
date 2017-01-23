@@ -10,7 +10,6 @@ int main()
     while(len--) {
 
         sum += (str[len]-96);
-        i++;
         
     }
     printf("%d", sum);
